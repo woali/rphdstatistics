@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="science.html">
+    <span class="fa fa-area-chart"></span>
+     
+    Science
+  </a>
+</li>
+<li>
+  <a href="rcv.html">
+    <span class="fa fa-puzzle-piece"></span>
+     
+    R portfolio
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div class="col-sm-4">
+<h3 id="alicja">Alicja</h3>
+<h3 id="wolny-dominiak-phd">Wolny-Dominiak, phd</h3>
+<p><img src="images/awd.jpg" width="55%"></p>
+<p><strong>mailto: <a href="mailto:rphdstatistics@gmail.com">rphdstatistics@gmail.com</a></strong></p>
+</div>
+
+<div class="col-sm-8">
+<h4 id="resume">Resume</h4>
+<ul>
+<li><strong>Education</strong>
+<ul>
+<li><p>M.Sc. in mathematics with specialization in informatics<br />
+Silesian University in Katowiach, Department of Mathematics 1996 s Supervisor: Prof. dr hab. Maciej Sablik</p></li>
+<li><p>Ph.D. in economical sciences (in the field of economics)<br />
+University of Economics in Katowice, Faculty of Economics 2002<br />
+Thesis title: <em>Statistical methods of loss reserve in non-life insurance</em> (in polish)<br />
+Supervisor: prof. dr hab. Wlodzimierz Szkutnik<br />
+Reviwers: prof. dr hab. Wanda Ronka-Chmielowiec, prof. dr hab. Jerzy Mika</p></li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li><p><strong>Employment</strong></p>
+<ul>
+<li><p>Starting in 1997 employed as an assistant in the Department of Econometrics of the Faculty of Management at the University of Economics in Katowice</p></li>
+<li><p>From 1997-2000 employed as an assistant in the Department of Econometrics of the Faculty of Management at the University of Economics in Katowice</p></li>
+<li><p>From 2000-2003 employed as an assistant in the Department of Mathematics of the Faculty of Management at the University of Economics in Katowice</p></li>
+<li><p>From 2003-2005 employed as an adjunct in the Department of Mathematics of the Faculty of Management at the University of Economics in Katowice</p></li>
+<li><p>From 2005 the position of adjunct in the Department of Statistical and Mathematical Methods in Economics of the Faculty of Economics at the University of Economics in Katowice</p></li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li><p><strong>Freelancing</strong></p>
+<ul>
+<li><p>leading research projects in the area of statistical models and R programming, e.g. predictive modelling and factor analysis in property (auto) insurance, premium and loss reserves prediction using claim history and driver behaviors, spatial analysis and visualization, analyzing rating scales (RSR procedure) in credit scoring and psychology, forecasting and time series analysis</p></li>
+<li>developing new R packages, implementing new statistical models published in top journals<br />
+</li>
+<li>R programming, data analysis and visualization in small projects, e.g.
+<ol style="list-style-type: decimal">
+<li>Modelling power output of athletes<br />
+</li>
+<li>Stochastic models of the failure process of a series system - air conditioning unit in an aircraft data<br />
+</li>
+<li>A New Weibull-Pareto Distribution: Properties and Applications Article - Wheaton river flood data<br />
+</li>
+<li>Property prices in Ireland<br />
+</li>
+<li>Mixed model and data visualization for minister selection database<br />
+</li>
+<li>Dublin bikes – R shiny app<br />
+</li>
+<li>Prediction the value of PM25 in Thailand (pollution data)<br />
+</li>
+<li>Rating Scale Reduction – Beck Depression Inventory scale<br />
+</li>
+</ol></li>
+<li><p>developing R shiny apps</p></li>
+</ul></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
